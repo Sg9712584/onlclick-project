@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color:black;
+}
+
+#mainsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    gap: 40px;
+   
+    
+}
+#heading{
+    font-size: 75px;
+}
+#button{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+#btn1,#btn2,#btn3{
+    padding:15px;
+    font-size: 20px;
+    border-radius: 22px;
+}
+#btn1{
+    background-color: red;
+    color: white;
+    border-color: azure;
+    box-shadow: cyan 2px 2px , blueviolet -2px -2px; 
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+#btn2{
+    background-color:greenyellow;
+    color: white;
+    border-color: azure;
+    box-shadow: cyan 2px 2px , blueviolet -2px -2px; 
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+
+}
+#btn3{
+    background-color:blue;
+    color: white;
+    border-color: azure;
+    box-shadow: cyan 2px 2px , blueviolet -2px -2px;
+      border-bottom-left-radius: 2px;
+      border-top-right-radius: 2px;
+
+}
+#btn1:hover{
+    padding:15px;
+    font-size: 20px;
+    border-radius: 22px;
+    color: black;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+
+
+}
+#btn2:hover{
+    padding:15px;
+    font-size: 20px;
+    border-radius: 22px;
+    color: black;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+
+}
+#btn3:hover{
+    padding:15px;
+    font-size: 20px;
+    border-radius: 22px;
+    color: black;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+
+}
